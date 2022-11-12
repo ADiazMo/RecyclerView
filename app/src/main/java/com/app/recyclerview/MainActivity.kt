@@ -34,5 +34,4 @@ class MainActivity : AppCompatActivity() {
     fun onItemSelected(pokemon: Pokemon){
         Toast.makeText(this,pokemon.name,Toast.LENGTH_LONG).show()
     }
-
 }
