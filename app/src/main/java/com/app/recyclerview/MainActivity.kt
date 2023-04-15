@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
                 superhero
             )
         }
+
         binding.recyclerView.addItemDecoration(decoration)
     }
 
